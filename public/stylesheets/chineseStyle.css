@@ -1,6 +1,6 @@
 body {
     padding: 50px;
-    font: 14px "Times New Roman", Helvetica, Arial, sans-serif;
+    font: 28px "Times New Roman", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -14,5 +14,6 @@ h1 {
 }
 
 img {
+    max-width: 100%;
     align-content: center;
 }
