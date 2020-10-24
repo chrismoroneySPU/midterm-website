@@ -2,27 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Chinese Restaurant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <title>Order Form</title>
+    <link rel="stylesheet" href="../stylesheets/chineseStyle.css" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <style>
-        .custom-control.custom-checkbox{padding-left: 0;}
-
-        label.custom-control-label {
-            position: relative;
-            padding-right: 1.5rem;
-        }
-
-        label.custom-control-label::before, label.custom-control-label::after{
-            right: 0;
-            left: auto;
-        }
-    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,45 +29,21 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="italian.html">Italian</a>
-                    <a class="dropdown-item" href="Chinese.html">Chinese</a>
+                    <a class="dropdown-item" href="chinese.html">Chinese</a>
                     <a class="dropdown-item" href="americanBBQ.html">American BBQ</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="order_form.html">Order <span class="sr-only"></span></a>
+                <a class="nav-link" href="orderForm.html">Order <span class="sr-only"></span></a>
             </li>
         </ul>
     </div>
 </nav>
-<div class="order-form" >
-    <h1 style="text-align: center; font-size: 48px;">Order Form</h1>
-    <div class="form-group">
-        <label for="firstName">First Name:</label>
-        <input type="text" name="firstName" id="firstName" class="form-control"
-               placeholder="First Name">
-    </div>
-    <div class="form-group">
-        <label for="lastName">Last Name:</label>
-        <input type="text" name="lastName" id="lastName" class="form-control"
-               placeholder="Last Name">
-    </div>
-    <div class="form-group">
-        <label for="phoneNum">Phone Number:</label>
-        <input type="number" name="phoneNum" id="phoneNum" class="form-control"
-               placeholder="(012)-345-6789">
-    </div>
-    <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" class="form-control"
-               placeholder="example@example.com">
-    </div>
-    <div class="form-group form-check">
-        <input type="checkbox" name="Italian" id="Italian" class="form-check-input">
-        <label for="Italian" class="form-check-label">Italian</label>
-    </div>
-    <div class="btn btn-primary">
-        <a class="btn btn-primary" href="index.html" role="button">Submit</a>
-    </div>
+<h1 style="text-align: center">Moroney's Chinese</h1>
+<div class="images">
+    <img src="../images/Egg_tart.jpg">
+    <img src="../images/bun.jpeg">
+    <img src="../images/stir_fry.jpg" style="float: right">
 </div>
 </body>
 </html>

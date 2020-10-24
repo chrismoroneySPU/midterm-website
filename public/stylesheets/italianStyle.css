@@ -1,0 +1,23 @@
+body {
+    padding: 50px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 48px;
+    text-align: center;
+}
+p {
+    font-family: cursive;
+    font-size: 18px;
+    float: right;
+}
+* {
+    background-color: black;
+    color: white;
+}
+
+img {
+    align-content: center;
+
+}
